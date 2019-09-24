@@ -12,10 +12,11 @@
     "visual testing"
   ],
   "scripts": {
-    "test": "percy exec -- node tests/*"
+    "test": "percy exec -- mocha tests/*"
   },
   "dependencies": {
-    "@percy/agent": "~0"
+    "@percy/agent": "~0",
+    "mocha": "^6.2.0"
   },
   "devDependencies": {
     "@semantic-release/changelog": "^3.0.4",
