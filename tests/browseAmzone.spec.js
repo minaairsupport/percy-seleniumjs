@@ -19,7 +19,6 @@ describe('browse_Amzone', function() {
     await driver.get("https://www.amazon.com/")
     await driver.setRect(1920, 1057)
     await driver.executeScript("window.scrollTo(0,0)")
-    await percySnapshot(driver, "Home Page");
     await driver.executeScript("window.scrollTo(0,0)")
     {
       const element = await driver.findElement(By.xpath("//a[@id=\'nav-orders\']/span[2]"))
