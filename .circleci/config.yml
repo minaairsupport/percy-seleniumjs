@@ -38,7 +38,4 @@ workflows:
     jobs:
       - node_8_with_percy
       - node_10
-      - release:
-          requires:
-            - node_10
-            - node_8_with_percy
+     
