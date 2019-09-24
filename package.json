@@ -12,7 +12,7 @@
     "visual testing"
   ],
   "scripts": {
-    "test": "percy exec -- node tests/index.js"
+    "test": "percy exec -- node tests/*"
   },
   "dependencies": {
     "@percy/agent": "~0"
