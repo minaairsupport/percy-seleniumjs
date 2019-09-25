@@ -17,7 +17,7 @@ describe('browse_Amzone', function() {
   })
   it('browse_Amzone', async function() {
     await driver.get("https://www.amazon.com/")
-    await driver.setRect(1920, 1057)
+
     await driver.executeScript("window.scrollTo(0,0)")
     await driver.executeScript("window.scrollTo(0,0)")
     {
